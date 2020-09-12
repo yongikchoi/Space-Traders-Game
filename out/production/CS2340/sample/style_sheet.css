@@ -1,0 +1,83 @@
+/*background for start screen*/
+.background_start{
+    -fx-background-image: url("/sample/img/start_background.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.transparent-background{
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*make list cell transparent*/
+.list-view{
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-border-color: darkviolet;
+    -fx-border-width: 3;
+}
+.list-cell {
+}
+
+.list-cell:even{
+    -fx-background-color: rgba(69, 48, 255, 0.3);
+    -fx-text-fill: white;
+}
+
+.list-cell:odd{
+    -fx-background-color: rgba(221, 51, 255, 0.3);
+    -fx-text-fill: white;
+}
+
+/*background for configuration screen*/
+.background_configuration{
+    -fx-background-image: url("/sample/img/configuration_background.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+/*background for stats screen*/
+.background_character_sheet{
+    -fx-background-image: url("/sample/img/character_sheet_background.png");
+    -fx-background-size: 100% 100%;
+}
+
+/*background for map*/
+.background_map{
+    -fx-background-image: url("/sample/img/map.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+/*background for region*/
+.background_region{
+    -fx-background-image: url("/sample/img/Region_sheet_background.png");
+    -fx-background-size: 100% 100%;
+}
+/*background for marketplace*/
+.background_marketplace{
+    -fx-background-image: url("/sample/img/market_background.png");
+    -fx-background-size: 100% 100%;
+}
+
+/*set text in jfxcombobox to white*/
+.combo-box > .list-cell {
+    -fx-text-fill: white;
+}
+
+/*not visited effect*/
+.blur_region{
+    -fx-opacity: 0.4;
+}
+
+.tab-pane *.tab-header-area *.tab-header-background{
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*background for game over*/
+.background_game_over{
+    -fx-background-image: url("/sample/img/game_over_background.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+/*background for winning*/
+.background_win{
+    -fx-background-image: url("/sample/img/win_background.jpg");
+    -fx-background-size: 100% 100%;
+}

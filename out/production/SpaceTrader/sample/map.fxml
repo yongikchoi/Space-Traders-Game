@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="background_map" stylesheets="@style_sheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MapController">
+   <children>
+      <ImageView fx:id="imgRegion1" fitHeight="75.0" fitWidth="75.0" layoutX="134.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Ceres.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegion2" fitHeight="75.0" fitWidth="75.0" layoutX="338.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Earth.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegion5" fitHeight="75.0" fitWidth="75.0" layoutX="134.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Venus.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegion3" fitHeight="75.0" fitWidth="75.0" layoutX="563.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Saturn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegion6" fitHeight="75.0" fitWidth="75.0" layoutX="346.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Neptune.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegion7" fitHeight="75.0" fitWidth="75.0" layoutX="563.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Uranus.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegion4" fitHeight="75.0" fitWidth="75.0" layoutX="783.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Jupiter.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegion8" fitHeight="75.0" fitWidth="75.0" layoutX="796.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Pluto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegion9" fitHeight="75.0" fitWidth="75.0" layoutX="120.0" layoutY="572.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Sun.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegion10" fitHeight="75.0" fitWidth="75.0" layoutX="346.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Mars.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

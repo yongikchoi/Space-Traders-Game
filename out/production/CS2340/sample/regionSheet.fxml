@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="background_region" stylesheets="@style_sheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegionController">
+   <children>
+      <Label fx:id="lbRegionName" alignment="CENTER" layoutX="449.0" layoutY="32.0" prefHeight="67.0" prefWidth="303.0" text="Name" textFill="#0cedde">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="backBtn" fitHeight="70.0" fitWidth="100.0" layoutX="44.0" layoutY="17.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#onCLickBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/play.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="84.0" prefHeight="29.0" prefWidth="107.0" text="Change Region" textFill="WHITE" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1058.0" layoutY="85.0" prefHeight="29.0" prefWidth="107.0" text="MarketPlace" textFill="WHITE" />
+      <AnchorPane layoutX="340.0" layoutY="153.0" prefHeight="495.0" prefWidth="522.0" styleClass="transparent-background" stylesheets="@style_sheet.css">
+         <children>
+            <Label layoutX="59.0" layoutY="65.0" text="Tech level:" textAlignment="CENTER" textFill="#0aeedf">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="192.0" text="Description:" textAlignment="CENTER" textFill="#0aeedf">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbDescription" alignment="CENTER" layoutX="37.0" layoutY="250.0" prefHeight="114.0" prefWidth="449.0" text="description" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbCharacteristics" alignment="CENTER" layoutX="37.0" layoutY="284.0" prefHeight="114.0" prefWidth="449.0" text="description" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbTechLevel" layoutX="290.0" layoutY="65.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="marketBtn" fitHeight="70.0" fitWidth="100.0" layoutX="1077.0" layoutY="18.0" onMouseClicked="#onCLickMarketButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/marketplace.png" />
+         </image>
+      </ImageView>
+      <HBox layoutY="718.0" prefHeight="100.0" prefWidth="1200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <ImageView fx:id="fuel" fitHeight="100.0" fitWidth="120.0">
+                     <image>
+                        <Image url="@img/fuel.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <Label fx:id="fuelValue" prefHeight="100.0" prefWidth="150.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <ImageView fx:id="credits" fitHeight="100.0" fitWidth="120.0">
+                     <image>
+                        <Image url="@img/credits.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <Label fx:id="creditValue" prefHeight="100.0" prefWidth="150.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <ImageView fx:id="health" fitHeight="100.0" fitWidth="120.0">
+                     <image>
+                        <Image url="@img/heart.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <Label fx:id="healthValue" prefHeight="100.0" prefWidth="150.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <ImageView fx:id="cargo" fitHeight="100.0" fitWidth="120.0">
+                     <image>
+                        <Image url="@img/cargo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <Label fx:id="cargoValue" prefHeight="100.0" prefWidth="150.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: green;" styleClass="background_character_sheet" stylesheets="@style_sheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CharacterSheetController">
+   <children>
+      <Label layoutX="261.0" layoutY="126.0" text="Name" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="264.0" layoutY="204.0" text="Difficulty level" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="264.0" layoutY="288.0" text="Credits" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="375.0" layoutY="364.0" text="Skills" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ImageView fitHeight="102.0" fitWidth="104.0" layoutX="174.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/merchant.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="104.0" layoutX="299.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/engineer.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="104.0" layoutX="426.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/pilot.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="104.0" layoutX="539.0" layoutY="481.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/fighter.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="183.0" layoutY="442.0" text="Merchant" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="315.0" layoutY="442.0" text="Engineer" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="457.0" layoutY="442.0" text="Pilot" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="559.0" layoutY="442.0" text="Fighter" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <FontAwesomeIconView glyphName="LIGHTBULB_ALT" layoutX="34.0" layoutY="45.0" size="3em" />
+      <Label layoutX="76.0" layoutY="10.0" text="Stats" textFill="#2dd0c2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbName" layoutX="426.0" layoutY="126.0" prefHeight="25.0" prefWidth="226.0" textFill="WHITE" />
+      <Label fx:id="lbLevel" layoutX="426.0" layoutY="204.0" prefHeight="25.0" prefWidth="226.0" textFill="WHITE" />
+      <Label fx:id="lbCredits" layoutX="426.0" layoutY="288.0" prefHeight="25.0" prefWidth="226.0" textFill="WHITE" />
+      <Label fx:id="lbMerchantPoint" alignment="CENTER" layoutX="174.0" layoutY="592.0" prefHeight="25.0" prefWidth="102.0" text="Label" textFill="WHITE" />
+      <Label fx:id="lbEngineerPoint" alignment="CENTER" layoutX="299.0" layoutY="592.0" prefHeight="25.0" prefWidth="102.0" text="Label" textFill="WHITE" />
+      <Label fx:id="lbPilotPoint" alignment="CENTER" layoutX="426.0" layoutY="592.0" prefHeight="25.0" prefWidth="102.0" text="Label" textFill="WHITE" />
+      <Label fx:id="lbFighterPoint" alignment="CENTER" layoutX="539.0" layoutY="592.0" prefHeight="25.0" prefWidth="102.0" text="Label" textFill="WHITE" />
+      <ImageView fx:id="nextBtn" fitHeight="102.0" fitWidth="113.0" layoutX="299.0" layoutY="634.0" onMouseClicked="#onCLickNextButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="backBtn" fitHeight="102.0" fitWidth="113.0" layoutX="178.0" layoutY="634.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#onCLickBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/play.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

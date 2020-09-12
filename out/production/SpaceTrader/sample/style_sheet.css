@@ -1,0 +1,32 @@
+/*background for start screen*/
+.background_start{
+    -fx-background-image: url("/sample/img/start_background.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.transparent-background{
+    -fx-background-color: rgba(255, 255, 255, 0.4);
+}
+
+/*background for configuration screen*/
+.background_configuration{
+    -fx-background-image: url("/sample/img/configuration_background.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+/*background for stats screen*/
+.background_character_sheet{
+    -fx-background-image: url("/sample/img/character_sheet_background.png");
+    -fx-background-size: 100% 100%;
+}
+
+/*background for map*/
+.background_map{
+    -fx-background-image: url("/sample/img/map.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+/*set text in jfxcombobox to white*/
+.combo-box > .list-cell {
+    -fx-text-fill: white;
+}
